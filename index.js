@@ -1,7 +1,4 @@
-const {
-  Client,
-  Attachment
-} = require('discord.js');
+const { Client, Attachment } = require('discord.js');
 const https = require('https');
 const snek = require('snekfetch');
 const client = new Client();

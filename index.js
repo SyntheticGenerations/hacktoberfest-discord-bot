@@ -55,7 +55,7 @@ client.on('message', async (msg) => {
       const embed = new Discord.RichEmbed()
         .setColor(0x00A2E8)
         .setImage(body.file);
-      message.channel.send({embed})
+      msg.channel.send({embed})
     } catch (err) {
       console.log(err.stack)
     }
